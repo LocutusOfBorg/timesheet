@@ -22,6 +22,7 @@ session:
   tools.secureheaders.on: true
   tools.sessions.secure: true
   tools.sessions.httponly: true
+  tools.sessions.persistent: false
   
 mongodb:
   hostname: localhost
